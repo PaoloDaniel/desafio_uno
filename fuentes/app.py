@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from connect import *
-
+#Aqui se llamaran las query y se enviaran un mensaje dependiendo del resultado
 #Congifuracion para evitar que ordene el json 
 app = Flask(__name__)
 

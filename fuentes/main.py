@@ -9,6 +9,7 @@ api = Api()
 api.init_app(app)
 app.wsgi_app = ProxyFix(app.wsgi_app)
 ns = api.namespace('api', description='TODO operations')
+#Congifuracion para evitar que ordene el json alfabeticamente
 app.config['JSON_SORT_KEYS'] = False
 
 #desde aqui se van a compenzar a llamar las rutas que se proyectaran con swagger
@@ -67,7 +68,7 @@ class deleteClientRoute(Resource):
 class getPrueba(Resource):
     def get(self):
         return getMetres()
-
+#estos .doc solicitaran los datos por swagger
 @api.doc(params={'rut': {'description': 'rut number is required'},
                  'id_medidor': {'description': 'id_medidor is required', 'default': None},
                  'direccion': {'description': 'direccion is optional', 'default': None},
@@ -85,7 +86,7 @@ class addMetreRoute(Resource):
             "numero_instalacion": request.args.get('numero_instalacion')
         }
         return newMetre(new_metre)
-
+#estos .doc solicitaran los datos por swagger
 @api.doc(params={'ecom_id': {'description': 'ecom_id number is required'},
                  'direccion': {'description': 'direccion is optional', 'default': None},
                  'numero_instalacion': {'description': 'numero_instalacion is optional', 'default': None}
@@ -100,7 +101,7 @@ class editMetreRoute(Resource):
             "numero_instalacion": request.args.get('numero_instalacion')
         }
         return editMetres(metreValues)
-        
+    #estos .doc solicitaran los datos por swagger
 @api.doc(params={'ecom_id': {'description': 'ecom_id number is required'}})
 
 @ns.route('/deleteMetre')

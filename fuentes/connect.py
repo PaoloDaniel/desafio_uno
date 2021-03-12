@@ -4,8 +4,8 @@ import psycopg2
 from flask import Flask, request
 
 
-#conexion con la base de datos, deben de reemplazarse con los valores dependiendo del equipo
-
+#conexion con la base de datos
+#Importante: deben de reemplazarse con los valores dependiendo del equipo
 conn = psycopg2.connect(
     host = "localhost",#El nombre del host
     database = "ECOM Chile",#nombre de la base de datos, que en mi caso es ECOM CHILE

@@ -1,5 +1,9 @@
 #Instrucciones se encuentran en README de cada carpeta
+La ejecucion debe realizarse en /fuentes
+#python main.py
+Por defecto se ve en localhost:5000
 
+----------------------------------------------------------------------
 
 # DESAFIO_UNO
 Repositorio con el ejercicio ECOM-Chile. El presente repositorio tiene por objetivo permitir subir los archivos para el postulante y con ello unirse a las filas de ECOM Chile :)

@@ -1,6 +1,7 @@
-Para esta aplicacion se utilizaron psycopg2 y flask
+Requeriments: pip install
 
 pip install psycopg2
 pip install Flask
 pip install flask-restplus
 pip install Flask-Migrate
+pip install Werkzeug
