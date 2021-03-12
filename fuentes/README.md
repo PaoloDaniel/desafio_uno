@@ -1,9 +1,13 @@
 Requeriments: pip install
 
 pip install psycopg2
+
 pip install Flask
+
 pip install flask-restplus
+
 pip install Flask-Migrate
+
 pip install Werkzeug==0.16.1
 
 #Instrucciones se encuentran en README de cada carpeta
