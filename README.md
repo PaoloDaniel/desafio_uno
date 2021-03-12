@@ -1,6 +1,9 @@
+--------------------------------------------------------------------
 #Instrucciones se encuentran en README de cada carpeta
-La ejecucion debe realizarse en /fuentes
-#python main.py
+
+La ejecucion debe realizarse en \desafio_uno\fuentes
+
+python main.py
 Por defecto se ve en localhost:5000
 
 ----------------------------------------------------------------------
