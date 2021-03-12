@@ -1,3 +1,6 @@
+#Instrucciones se encuentran en README de cada carpeta
+
+
 # DESAFIO_UNO
 Repositorio con el ejercicio ECOM-Chile. El presente repositorio tiene por objetivo permitir subir los archivos para el postulante y con ello unirse a las filas de ECOM Chile :)
 
